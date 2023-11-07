@@ -9,7 +9,7 @@ public class RandomLottoNumberGenerator {
     private static final int MAX_NUMBER_FORTY_FIVE = 45;
     private static final int LOTTO_NUMBER_COUNT_SIX = 6;
 
-    public List<Integer> RandomLottoNumberGenerator() {
-        return Randoms.pickUniqueNumbersInRange(MIN_NUMBER_ONE , MAX_NUMBER_FORTY_FIVE, LOTTO_NUMBER_COUNT_SIX);
+    public List<Integer> randomLottoNumberGenerator() {
+        return Randoms.pickUniqueNumbersInRange(MIN_NUMBER_ONE, MAX_NUMBER_FORTY_FIVE, LOTTO_NUMBER_COUNT_SIX);
     }
 }
