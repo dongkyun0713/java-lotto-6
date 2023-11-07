@@ -23,4 +23,8 @@ public class Lotto {
         return Randoms.pickUniqueNumbersInRange(1, 45, 6);
     }
 
+    public int purchaseLotto(int purchaseAmount) {
+        return purchaseAmount / 1000;
+    }
+
 }
