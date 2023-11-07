@@ -19,9 +19,7 @@ public class Lotto {
     }
     // TODO: 추가 기능 구현
 
-    public List<Integer> RandomLottoNumberGenerator() {
-        return Randoms.pickUniqueNumbersInRange(1, 45, 6);
-    }
+
 
     public int purchaseLotto(int purchaseAmount) {
         return purchaseAmount / 1000;
