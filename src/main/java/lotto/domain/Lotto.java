@@ -21,8 +21,6 @@ public class Lotto {
 
 
 
-    public int purchaseLotto(int purchaseAmount) {
-        return purchaseAmount / 1000;
-    }
+
 
 }
