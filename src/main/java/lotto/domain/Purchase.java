@@ -1,7 +1,7 @@
 package lotto.domain;
 
 public class Purchase {
-    public int purchaseLottoCount(int purchaseAmount) {
+    public int countPurchaseLotto(int purchaseAmount) {
         return purchaseAmount / 1000;
     }
 
